@@ -1,0 +1,46 @@
+body {
+	width: 800px;
+	margin: 20px auto;	
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 39px;
+}
+
+article img {
+	float: left;
+	margin-right: 20px;
+}
+
+.preview {
+	float: right;
+	width: 550px;
+}
+
+.body p {
+	text-align: justify; 
+}
+
+a {
+	color: #276056;
+}
+
+.meta a {
+	font-style: italic;
+	font-size: 14px; 
+}
+
+.meta li::after {
+	content: '|';
+	padding: 0 10px;
+	color: #999;
+}
+
+.meta li:last-child::after {
+	content: '';
+}
+
+.meta li {
+	display: inline;
+}
