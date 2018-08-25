@@ -1,7 +1,16 @@
-.box{
-	width: 200px;
-	height: 200px;
-	margin: auto;
-	background-color: red;
-	position: relative;
+body {
+	width: 700px;
+	margin: 20px auto;	
 }
+
+article img {
+	float: left;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
